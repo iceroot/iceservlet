@@ -12,7 +12,7 @@ import org.apache.jasper.servlet.JspServlet;
 /**
  * Servlet implementation class IceServlet
  */
-@WebServlet({ "/jsp/*", "/", })
+@WebServlet({ "/jsp/*", "/", "" })
 public class IceJspServlet extends JspServlet {
     private static final long serialVersionUID = 3409995260063409321L;
 

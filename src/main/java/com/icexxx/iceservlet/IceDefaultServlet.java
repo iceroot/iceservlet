@@ -12,7 +12,8 @@ import org.apache.catalina.servlets.DefaultServlet;
 /**
  * Servlet implementation class IceServlet
  */
-@WebServlet({ "/static/*", "/css/*", "/js/*", "/img/*", "/image/*", "/images/*" })
+@WebServlet({ "/static/*", "/css/*", "/lib/*", "/jslib/*", "/js/*", "/img/*", "/image/*", "/images/*", "/html/*",
+        "/upload/*", "/file/*", "/font/*", "/zip/*", "/rar/*", "/xls/*", "/doc/*" })
 public class IceDefaultServlet extends DefaultServlet {
 
     private static final long serialVersionUID = 7356527030377901738L;
